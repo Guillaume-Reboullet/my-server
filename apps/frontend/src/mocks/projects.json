@@ -1,0 +1,47 @@
+[
+  {
+    "user": "alice",
+    "name": "monitor-app",
+    "domain": "monitor.alice.com",
+    "stack": { "frontend": "React", "backend": "NestJS" },
+    "port": 3005,
+    "status": "running",
+    "updated_at": "2025-04-15T11:20:00Z"
+  },
+  {
+    "user": "alice",
+    "name": "portfolio",
+    "domain": "portfolio.alice.com",
+    "stack": { "frontend": "Next.js" },
+    "port": 3006,
+    "status": "stopped",
+    "updated_at": "2025-04-14T18:50:00Z"
+  },
+  {
+    "user": "alice",
+    "name": "app-a",
+    "domain": "app-a.alice.com",
+    "stack": { "frontend": "Vue", "backend": "Fastify" },
+    "port": 3007,
+    "status": "running",
+    "updated_at": "2025-04-13T09:30:00Z"
+  },
+  {
+    "user": "bob",
+    "name": "chatbot",
+    "domain": "chatbot.bob.com",
+    "stack": { "frontend": "Svelte", "backend": "Flask" },
+    "port": 4001,
+    "status": "stopped",
+    "updated_at": "2025-04-12T17:25:00Z"
+  },
+  {
+    "user": "bob",
+    "name": "api-server",
+    "domain": "api.bob.com",
+    "stack": { "backend": "Express" },
+    "port": 4000,
+    "status": "running",
+    "updated_at": "2025-04-11T22:10:00Z"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "username": "alice",
+    "home": "/home/alice",
+    "projects": ["monitor-app", "portfolio", "app-a"]
+  },
+  {
+    "username": "bob",
+    "home": "/home/bob",
+    "projects": ["chatbot", "api-server"]
+  }
+]

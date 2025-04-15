@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "monitor.alice.com",
+    "valid_from": "2025-03-01",
+    "valid_to": "2025-06-01",
+    "days_remaining": 47,
+    "issuer": "Let's Encrypt"
+  },
+  {
+    "domain": "portfolio.alice.com",
+    "valid_from": "2025-01-01",
+    "valid_to": "2025-04-10",
+    "days_remaining": -5,
+    "issuer": "Cloudflare Inc"
+  },
+  {
+    "domain": "app-a.alice.com",
+    "valid_from": "2025-03-01",
+    "valid_to": "2025-05-15",
+    "days_remaining": 30,
+    "issuer": "Let's Encrypt"
+  },
+  {
+    "domain": "chatbot.bob.com",
+    "valid_from": "2025-03-10",
+    "valid_to": "2025-04-20",
+    "days_remaining": 5,
+    "issuer": "ZeroSSL"
+  },
+  {
+    "domain": "api.bob.com",
+    "valid_from": "2025-02-01",
+    "valid_to": "2025-05-01",
+    "days_remaining": 16,
+    "issuer": "Let's Encrypt"
+  },
+  {
+    "domain": "docs.bob.com",
+    "valid_from": "2025-03-05",
+    "valid_to": "2025-07-01",
+    "days_remaining": 77,
+    "issuer": "Google Trust Services"
+  }
+]

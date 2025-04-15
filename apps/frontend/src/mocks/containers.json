@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1a2b3c",
+    "name": "monitor-app",
+    "image": "node:20",
+    "status": "running",
+    "ports": [
+      { "host": 3005, "container": 3000 }
+    ],
+    "uptime": "17h 45m"
+  },
+  {
+    "id": "2b3c4d",
+    "name": "portfolio",
+    "image": "node:20",
+    "status": "stopped",
+    "ports": [
+      { "host": 3006, "container": 3000 }
+    ],
+    "uptime": "1h 15m"
+  },
+  {
+    "id": "3c4d5e",
+    "name": "app-a",
+    "image": "node:20",
+    "status": "running",
+    "ports": [
+      { "host": 3007, "container": 3000 }
+    ],
+    "uptime": "8h 45m"
+  },
+  {
+    "id": "4d5e6f",
+    "name": "chatbot",
+    "image": "python:3.11",
+    "status": "stopped",
+    "ports": [
+      { "host": 4001, "container": 5000 }
+    ],
+    "uptime": "48m"
+  },
+  {
+    "id": "5e6f7g",
+    "name": "api-server",
+    "image": "node:20",
+    "status": "running",
+    "ports": [
+      { "host": 4000, "container": 4000 }
+    ],
+    "uptime": "3h 20m"
+  }
+]
