@@ -111,7 +111,8 @@ Makefile
  - 🔐 SSL certificates are generated with Certbot and stored at /etc/letsencrypt, then mounted as read-only inside containers.
  - 🧩 The system supports multi-project, multi-user deployment using Docker Compose.
 
- 👀 **[View Architecture Diagram in Eraser](https://app.eraser.io/workspace/bCLUdaJLtBbj4sH3KiGA?origin=share)**  
+ [![View Architecture Diagram](https://img.shields.io/badge/View%20Diagram-Eraser.io-blue?logo=eraser)](https://app.eraser.io/workspace/bCLUdaJLtBbj4sH3KiGA?origin=share)
+
 
 ## 🚀 Deployment Workflow
 How to safely deploy a new project to the server (frontend + backend + DB):
