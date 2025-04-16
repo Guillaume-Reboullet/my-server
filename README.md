@@ -118,9 +118,9 @@ Clone your project into `~/projects/your-website`
 
 
 
-Add a new service to docker-compose.yml with the right ports and environment variables
+Add a new service to `docker-compose.yml` with the right ports and environment variables
 
-Mount your .env file, and if needed, add volumes and certs
+Mount your `.env` file, and if needed, add volumes and certs
 
 Build and run the service:
 ```sh
@@ -134,7 +134,7 @@ sudo certbot --nginx -d your-domain.com
 ```
 🎉 You're live, secure, and reverse-proxied.
 
-### To Do List 
+## To Do List 
 🔗 Replace mock data with real-time metrics from Docker Engine and Certbot
 
 📈 Add Prometheus + Grafana support for production-grade monitoring
@@ -148,4 +148,4 @@ sudo certbot --nginx -d your-domain.com
 ### 📜 License
 MIT — free to use, modify, and deploy.
 
-Built by devs who believe infrastructure should be clear, monitored, and documented.
+Built by devs who believe code & infrastructure should be clear, monitored, and documented.
