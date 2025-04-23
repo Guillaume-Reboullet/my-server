@@ -1,6 +1,6 @@
 import { useState } from "react";
-import users from "../mocks/users.json";
-import projects from "../mocks/projects.json";
+import users from "../../mocks/users.json";
+import projects from "../../mocks/projects.json";
 
 const Projects = () => {
   const [userFilter, setUserFilter] = useState("all");

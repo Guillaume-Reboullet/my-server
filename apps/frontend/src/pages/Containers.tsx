@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
-import containers from "../mocks/containers.json";
-import projects from "../mocks/projects.json";
-import users from "../mocks/users.json";
+import containers from "../../mocks/containers.json";
+import projects from "../../mocks/projects.json";
+import users from "../../mocks/users.json";
 
 import {
   Chart as ChartJS,
@@ -222,20 +222,20 @@ function SummaryCard({ label, value }: { label: string; value: string | number }
   );
 }
 
-function parseUptimeToDaysAndHours(uptime: string): { days: number; hours: number } {
-  const match = uptime.match(/(?:(\d+)h)?\s*(?:(\d+)m)?/);
-  const rawHours = match?.[1] ? parseInt(match[1]) : 0;
-  const rawMinutes = match?.[2] ? parseInt(match[2]) : 0;
+// function parseUptimeToDaysAndHours(uptime: string): { days: number; hours: number } {
+//   const match = uptime.match(/(?:(\d+)h)?\s*(?:(\d+)m)?/);
+//   const rawHours = match?.[1] ? parseInt(match[1]) : 0;
+//   const rawMinutes = match?.[2] ? parseInt(match[2]) : 0;
 
-  // Total hours (rounded if needed)
-  const totalHours = rawHours + rawMinutes / 60;
+//   // Total hours (rounded if needed)
+//   const totalHours = rawHours + rawMinutes / 60;
 
-  // Calculate days and remaining hours
-  const days = Math.floor(totalHours / 24);
-  const hours = Math.round(totalHours % 24);
+//   // Calculate days and remaining hours
+//   const days = Math.floor(totalHours / 24);
+//   const hours = Math.round(totalHours % 24);
 
-  return { days, hours };
-}
+//   return { days, hours };
+// }
 
 function parseUptimeToHours(uptime: string): number {
   const match = uptime.match(/(?:(\d+)h)?\s*(?:(\d+)m)?/);

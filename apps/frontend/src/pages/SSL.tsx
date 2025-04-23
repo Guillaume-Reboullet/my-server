@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
-import ssl from "../mocks/ssl.json";
-import projects from "../mocks/projects.json";
-import users from "../mocks/users.json";
+import ssl from "../../mocks/ssl.json";
+import projects from "../../mocks/projects.json";
+import users from "../../mocks/users.json";
 import {
   Chart as ChartJS,
   BarElement,

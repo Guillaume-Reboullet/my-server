@@ -1,13 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import StatCard from "./StatsCard";
 import Panel from "./Panel";
 
-import overview from "../../mocks/overview.json";
-import containers from "../../mocks/containers.json";
-import users from "../../mocks/users.json";
-import ssl from "../../mocks/ssl.json";
-import metrics from "../../mocks/metrics.json";
+import overview from "../../../mocks/overview.json";
+import containers from "../../../mocks/containers.json";
+import users from "../../../mocks/users.json";
+import ssl from "../../../mocks/ssl.json";
+import metrics from "../../../mocks/metrics.json";
 
 import { Line } from "react-chartjs-2";
 import {
