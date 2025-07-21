@@ -34,7 +34,7 @@ jobs:
       - name: Build the project
         env:
           CI: false
-        run: npm run build
+        run: npm run build --base=http://guillaume-reboullet.com/my-server
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
