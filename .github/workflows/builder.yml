@@ -4,11 +4,11 @@ on:
   push:
     branches: [production]
     paths:
-      - "web/**"
+      - "apps/frontend/**"
   pull_request:
     branches: [production]
     paths:
-      - "web/**"
+      - "apps/frontend/**"
   workflow_dispatch:
 
 jobs:
